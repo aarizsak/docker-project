@@ -10,3 +10,4 @@ WORKDIR /var/www/html
 ENTRYPOINT ["/usr/sbin/apache2ctl"]
 CMD ["-D" , "FOREGROUND"]
 EXPOSE 80
+
